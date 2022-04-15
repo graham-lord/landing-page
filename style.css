@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.one .links {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container > * {
+    padding: 50px;
+    flex: 1;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    gap: 50px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.logo-first {
+    color: rgba(0, 255, 0, .9);
+}
+
+.logo-second {
+    color: rgba(0, 200, 255, .9);
+}
+
+.content-one p {
+    margin-top: 24px;
+}
+
+.one h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.one .header-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.one .content-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-one > *{
+    flex-grow: 1;
+}
+
+.content-one img {
+    height: 175px;
+    width: 175px;
+    margin-top: 10px;
+    margin-left: 300px;
+    border-radius: 50%;
+}
+
+.one button {
+    background-color: #3882f6;
+    color: white;
+}
+
+
+.two {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.two .header-two {
+    display: flex;
+    justify-content: center;
+}
+
+.two .contents-two {
+    display: flex;
+    gap: 16px;
+}
+
+.contents-two .box {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg {
+    height: 150px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.content-three {
+    padding: 8px;
+    font-size: large;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.three .author {
+    align-self: flex-end;
+    padding: 4px 8px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four .content-four{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 32px 64px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 16px;
+}
+
+
+.four .button {
+    align-self: end;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-color: white;
+    color: white;
+    background-color: #3882f6;
+}
+
+.footer {
+    height: min-content;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+}
